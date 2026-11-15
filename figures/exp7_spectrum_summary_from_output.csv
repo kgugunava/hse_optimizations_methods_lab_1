@@ -1,0 +1,9 @@
+loss,lambda,status,sampled_iterations,initial_condition_number,terminal_condition_number
+pseudohuber,1e-05,success,"[0, 4]",2.044e+06,3.337e+06
+pseudohuber,0.001,success,"[0, 4]",2.044e+04,3.337e+04
+pseudohuber,0.1,success,"[0, 4]",205.4,333
+pseudohuber,10,success,"[0, 3]",3.044,4.173
+logistic,1e-05,success,"[0, 5, 7]",1.626e+04,3276
+logistic,0.001,success,"[0, 4]",163.6,81.5
+logistic,0.1,success,"[0, 2]",2.626,2.61
+logistic,10,success,"[0, 1]",1.016,1.016

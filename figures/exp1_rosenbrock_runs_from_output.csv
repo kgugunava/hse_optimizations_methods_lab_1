@@ -1,0 +1,9 @@
+start_name,start,method,status,iterations,final_func,final_grad_norm,distance_to_minimum
+На дне оврага,[-1.5   2.25],GD Armijo,success,7960,1.548e-07,4.930e-04,8.803e-04
+На дне оврага,[-1.5   2.25],Newton Armijo,success,21,3.144e-16,5.837e-07,2.690e-08
+Рядом с дном оврага,[-1.2  1. ],GD Armijo,success,6586,6.209e-07,9.858e-04,1.762e-03
+Рядом с дном оврага,[-1.2  1. ],Newton Armijo,success,20,8.517e-12,1.187e-04,2.727e-06
+На крутом склоне,[ 1.5 -1. ],GD Armijo,success,6412,6.029e-07,9.922e-04,1.737e-03
+На крутом склоне,[ 1.5 -1. ],Newton Armijo,success,10,1.150e-13,1.458e-05,2.116e-07
+Неопределённый гессиан,[0. 2.],GD Armijo,success,6403,6.063e-07,9.852e-04,1.742e-03
+Неопределённый гессиан,[0. 2.],Newton Armijo,newton_direction_error,0,4.010e+02,4.000e+02,1.414e+00

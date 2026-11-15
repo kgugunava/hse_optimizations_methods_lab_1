@@ -1,0 +1,25 @@
+function,start,method,status,iterations,final_func,relative_grad_sq
+f1,"(2, 2)",GD Constant,success,5,3.308e-08,6.778e-09
+f1,"(2, 2)",GD Armijo,success,6,9.830e-09,2.417e-09
+f1,"(2, 2)",GD Wolfe,success,6,9.830e-09,2.417e-09
+f1,"(2, 2)",Newton,success,1,0.000e+00,0.000e+00
+f1,"(2, 0.2)",GD Constant,success,6,9.188e-10,4.529e-10
+f1,"(2, 0.2)",GD Armijo,success,5,2.458e-09,1.454e-09
+f1,"(2, 0.2)",GD Wolfe,success,5,2.458e-09,1.454e-09
+f1,"(2, 0.2)",Newton,success,1,0.000e+00,0.000e+00
+f1,"(0.2, 2)",GD Constant,success,4,1.191e-08,4.106e-09
+f1,"(0.2, 2)",GD Armijo,success,6,9.830e-09,4.068e-09
+f1,"(0.2, 2)",GD Wolfe,success,6,9.830e-09,4.068e-09
+f1,"(0.2, 2)",Newton,success,1,0.000e+00,0.000e+00
+f2,"(2, 2)",GD Constant,success,459,1.969e-04,9.842e-09
+f2,"(2, 2)",GD Armijo,success,225,9.444e-05,7.561e-09
+f2,"(2, 2)",GD Wolfe,success,3,0.000e+00,0.000e+00
+f2,"(2, 2)",Newton,success,1,0.000e+00,0.000e+00
+f2,"(2, 0.2)",GD Constant,success,687,2.013e-06,9.964e-09
+f2,"(2, 0.2)",GD Armijo,success,324,1.057e-06,9.360e-09
+f2,"(2, 0.2)",GD Wolfe,success,9,3.852e-32,1.907e-32
+f2,"(2, 0.2)",Newton,success,1,0.000e+00,0.000e+00
+f2,"(0.2, 2)",GD Constant,success,230,1.964e-04,9.822e-09
+f2,"(0.2, 2)",GD Armijo,success,121,1.054e-04,8.268e-09
+f2,"(0.2, 2)",GD Wolfe,success,2,1.921e-06,9.606e-09
+f2,"(0.2, 2)",Newton,success,1,0.000e+00,0.000e+00

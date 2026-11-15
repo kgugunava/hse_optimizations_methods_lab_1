@@ -1,0 +1,27 @@
+{
+  "cpu": "x86_64",
+  "logical_cpus": 2,
+  "system": "Linux-6.6.159+-x86_64-with-glibc2.39",
+  "ram_bytes": 13605818368,
+  "available_ram_bytes": 11450372096,
+  "numpy": "2.4.6",
+  "scipy": "1.16.3",
+  "blas_threads": 1,
+  "blas": [
+    {
+      "internal_api": "openblas",
+      "version": "0.3.31.188.0",
+      "architecture": "Haswell"
+    },
+    {
+      "internal_api": "openblas",
+      "version": "0.3.29.dev",
+      "architecture": "Haswell"
+    },
+    {
+      "internal_api": "openmp",
+      "version": null,
+      "architecture": null
+    }
+  ]
+}

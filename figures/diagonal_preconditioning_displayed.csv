@@ -1,0 +1,13 @@
+case,method,status,iterations,seconds,milliseconds_per_iteration,relative_grad_sq,diagonal_calls
+triazines,GD,success,564.0,0.153790,0.272677,9.785679e-07,0
+triazines,Diagonal GD,success,417.0,0.146875,0.352219,9.867380e-07,417
+triazines,Newton,success,3.0,0.001947,0.649120,9.513777e-08,0
+real-sim,GD,success,1231.0,73.637819,59.819512,9.982514e-07,0
+real-sim,Diagonal GD,success,36.0,3.062320,85.064442,7.428824e-07,36
+real-sim,Newton,skipped_memory,NaN,NaN,NaN,NaN,0
+synthetic_axes,GD,success,4719.0,3.004759,0.636736,9.962563e-07,0
+synthetic_axes,Diagonal GD,success,21.0,0.014462,0.688678,9.898719e-07,21
+synthetic_axes,Newton,success,5.0,0.010287,2.057434,4.761103e-09,0
+synthetic_rotated,GD,success,4719.0,1.659943,0.351757,9.962563e-07,0
+synthetic_rotated,Diagonal GD,iterations_exceeded,5000.0,1.943841,0.388768,2.923787e-06,5000
+synthetic_rotated,Newton,success,5.0,0.003653,0.730531,4.761103e-09,0
