@@ -1,0 +1,528 @@
+{
+  "source_notebook": "MetOpt_lab_1_26.ipynb",
+  "source_sha256": "56f17b8a95ba93d93881853f0d7143f4896613c5600c47a2b4618aeea339cb04",
+  "recovery_mode": "Only saved outputs of the notebook; no optimization or plot rerun.",
+  "images_count": 36,
+  "csv_count": 17,
+  "notes_ru": [
+    "PNG выгружены из сохранённых выводов ноутбука без изменения байтов.",
+    "CSV с суффиксами displayed и from_output восстановлены из видимых таблиц и печатного вывода; они не являются полными исходными экспортами.",
+    "Числа сохранены с точностью, доступной в выводе. Нули в округлённых таблицах не означают точный нулевой градиент.",
+    "exp2_iterations_displayed.csv содержит только показанные строки усечённой таблицы; полный набор из 200 строк недоступен.",
+    "Полный архив карты 200×200, checkpoints, истории оптимизации и полные массивы спектров в ноутбуке не сохранены и не восстановлены.",
+    "Время в тексте некоторых отчётов отличается от текущего сохранённого вывода. Сам ноутбук при экспорте не изменялся."
+  ],
+  "unrecoverable_originals": [
+    "Full 200x200 basin NPZ and checkpoints",
+    "Raw optimizer histories and endpoints for all starts",
+    "Full experiment 2 and Wolfe CSV exports",
+    "Complete unrounded original CSV fields and eigenvalue arrays"
+  ],
+  "detected_report_timing_mismatches": [
+    {
+      "report": 3,
+      "dataset": "mg_scale",
+      "method": "GD",
+      "report_seconds": "0.0230",
+      "saved_output_seconds": "0.050341"
+    },
+    {
+      "report": 3,
+      "dataset": "mg_scale",
+      "method": "Newton",
+      "report_seconds": "0.0033",
+      "saved_output_seconds": "0.006295"
+    },
+    {
+      "report": 3,
+      "dataset": "triazines_scale",
+      "method": "GD",
+      "report_seconds": "0.0974",
+      "saved_output_seconds": "0.205369"
+    },
+    {
+      "report": 3,
+      "dataset": "triazines_scale",
+      "method": "Newton",
+      "report_seconds": "0.0030",
+      "saved_output_seconds": "0.003589"
+    },
+    {
+      "report": 3,
+      "dataset": "phishing",
+      "method": "GD",
+      "report_seconds": "2.1969",
+      "saved_output_seconds": "3.119677"
+    },
+    {
+      "report": 3,
+      "dataset": "phishing",
+      "method": "Newton",
+      "report_seconds": "0.1515",
+      "saved_output_seconds": "0.147338"
+    },
+    {
+      "report": 3,
+      "dataset": "real-sim",
+      "method": "GD",
+      "report_seconds": "8.1277",
+      "saved_output_seconds": "7.243443"
+    }
+  ],
+  "artifacts": [
+    {
+      "file": "exp1_quadratic_f1.png",
+      "kind": "saved_png",
+      "source_cell": 36,
+      "source_output": 0,
+      "byte_identical_to_notebook": true,
+      "sha256": "156daa614555312abcffe99f3a05fa0362c86e202cc45608f626714c4357810e"
+    },
+    {
+      "file": "exp1_quadratic_f2.png",
+      "kind": "saved_png",
+      "source_cell": 36,
+      "source_output": 1,
+      "byte_identical_to_notebook": true,
+      "sha256": "08219b37a526e51a8f6f898dea5e5e43c47e4aac1d75e3a0e3dc353e9bf83887"
+    },
+    {
+      "file": "exp1_rosenbrock_levels.png",
+      "kind": "saved_png",
+      "source_cell": 39,
+      "source_output": 1,
+      "byte_identical_to_notebook": true,
+      "sha256": "d0855b88d45c991bca1427debd95a598e561019f8c5542ea93f2bb2a92c969a3"
+    },
+    {
+      "file": "exp1_rosenbrock_trajectories.png",
+      "kind": "saved_png",
+      "source_cell": 40,
+      "source_output": 1,
+      "byte_identical_to_notebook": true,
+      "sha256": "0a4f9b5ea875523d5dee57087b36d8fb89eb089334a57de6779425da2957107a"
+    },
+    {
+      "file": "exp1_rosenbrock_basins.png",
+      "kind": "saved_png",
+      "source_cell": 42,
+      "source_output": 0,
+      "byte_identical_to_notebook": true,
+      "sha256": "067001494198f142b134a576b1ed22d1a197ba5f3345dff3f653c74ef1846361"
+    },
+    {
+      "file": "exp1_rotated_quadratics.png",
+      "kind": "saved_png",
+      "source_cell": 43,
+      "source_output": 0,
+      "byte_identical_to_notebook": true,
+      "sha256": "1e0b53db9cd133604511c5e9a8a12fd3373feb2c6d13d4ada11c8a0ad3055867"
+    },
+    {
+      "file": "exp1_rosenbrock_sections.png",
+      "kind": "saved_png",
+      "source_cell": 43,
+      "source_output": 1,
+      "byte_identical_to_notebook": true,
+      "sha256": "023d19cc49b9cdc3c7b8b099f17c0f28e2c9ad3c034fa139ba72cea6f91070bd"
+    },
+    {
+      "file": "exp1_himmelblau_trajectories.png",
+      "kind": "saved_png",
+      "source_cell": 44,
+      "source_output": 1,
+      "byte_identical_to_notebook": true,
+      "sha256": "846a7030c34da24afb02f52f89c7496c4ba7785c2d985f0a50ae610095e4cd86"
+    },
+    {
+      "file": "exp1_himmelblau_basins.png",
+      "kind": "saved_png",
+      "source_cell": 44,
+      "source_output": 2,
+      "byte_identical_to_notebook": true,
+      "sha256": "c87888517e6ef7019c2de343ad4136f7121144e3ca976296fc1e9ba1cde4e7d0"
+    },
+    {
+      "file": "exp2_conditioning_dimension.png",
+      "kind": "saved_png",
+      "source_cell": 48,
+      "source_output": 0,
+      "byte_identical_to_notebook": true,
+      "sha256": "7fc9da5405183712211cd3246efd3410fa1bb171fa8cca07355226bfb6e0787e"
+    },
+    {
+      "file": "exp2_wolfe_comparison.png",
+      "kind": "saved_png",
+      "source_cell": 49,
+      "source_output": 1,
+      "byte_identical_to_notebook": true,
+      "sha256": "46f92ddba670687b38b40000ab4e421edc1c9ae3e6fd59ba1057b372a92d4927"
+    },
+    {
+      "file": "exp3_mg_scale.png",
+      "kind": "saved_png",
+      "source_cell": 53,
+      "source_output": 0,
+      "byte_identical_to_notebook": true,
+      "sha256": "397d86cc4614ddc95131d910b16d0959ae325cde841d6d0188b69cdc23c74384"
+    },
+    {
+      "file": "exp3_triazines_scale.png",
+      "kind": "saved_png",
+      "source_cell": 53,
+      "source_output": 1,
+      "byte_identical_to_notebook": true,
+      "sha256": "985b38b28344aa9916b06f054f17bbd90f165945a68de2f07f4ed2061453beeb"
+    },
+    {
+      "file": "exp3_phishing.png",
+      "kind": "saved_png",
+      "source_cell": 53,
+      "source_output": 2,
+      "byte_identical_to_notebook": true,
+      "sha256": "7b1b8bf29ab17adb1972c2313edbad1bbee5c7f09fa53fbfd604d232d666acf4"
+    },
+    {
+      "file": "exp3_real-sim.png",
+      "kind": "saved_png",
+      "source_cell": 53,
+      "source_output": 3,
+      "byte_identical_to_notebook": true,
+      "sha256": "22cfaf38d367b78b6211ae641b29ce0f9ed77e2582055ab8f6bfaf596385a4ea"
+    },
+    {
+      "file": "exp4_quadratic_convergence.png",
+      "kind": "saved_png",
+      "source_cell": 58,
+      "source_output": 0,
+      "byte_identical_to_notebook": true,
+      "sha256": "33560ccf26872ae268ad75207cf3280ed29e28084294277f27ad2a985d965e0b"
+    },
+    {
+      "file": "exp4_quadratic_costs.png",
+      "kind": "saved_png",
+      "source_cell": 58,
+      "source_output": 1,
+      "byte_identical_to_notebook": true,
+      "sha256": "565d7d7253fa80ffa274f34d12baafd08941981150680a64291abc26a8199004"
+    },
+    {
+      "file": "exp4_pseudohuber_convergence.png",
+      "kind": "saved_png",
+      "source_cell": 58,
+      "source_output": 2,
+      "byte_identical_to_notebook": true,
+      "sha256": "dadb83fd9754cb5c186173be1338276f23e9d897604acc3ce19344aa62281714"
+    },
+    {
+      "file": "exp4_pseudohuber_costs.png",
+      "kind": "saved_png",
+      "source_cell": 58,
+      "source_output": 3,
+      "byte_identical_to_notebook": true,
+      "sha256": "ab364287b86e937879423a9289bd336ee6679b56755bb6f15ebf6224f03aeee5"
+    },
+    {
+      "file": "exp4_logistic_convergence.png",
+      "kind": "saved_png",
+      "source_cell": 58,
+      "source_output": 4,
+      "byte_identical_to_notebook": true,
+      "sha256": "6c136a54f04be6c26a3a3ca6bf84f660722ae940624a05df3513119b5b52dd87"
+    },
+    {
+      "file": "exp4_logistic_costs.png",
+      "kind": "saved_png",
+      "source_cell": 58,
+      "source_output": 5,
+      "byte_identical_to_notebook": true,
+      "sha256": "ed841b9e681e4138e9e5782e956e6f18340bb81b48b142c7f736d9159175018d"
+    },
+    {
+      "file": "exp5_pseudohuber_convergence.png",
+      "kind": "saved_png",
+      "source_cell": 63,
+      "source_output": 0,
+      "byte_identical_to_notebook": true,
+      "sha256": "0d3c99b4657576b72d67120fbe9ad887096ad1e2c0f77a5b4ad912053b2a71cc"
+    },
+    {
+      "file": "exp5_pseudohuber_quadratic_phase.png",
+      "kind": "saved_png",
+      "source_cell": 63,
+      "source_output": 1,
+      "byte_identical_to_notebook": true,
+      "sha256": "ae339215252a9ed2b2462fb64303fc036cfcc5609f0f1f8622bb213b2938f7f5"
+    },
+    {
+      "file": "exp5_pseudohuber_costs.png",
+      "kind": "saved_png",
+      "source_cell": 63,
+      "source_output": 2,
+      "byte_identical_to_notebook": true,
+      "sha256": "f7e406040dd61a314a785238e4d24c2498b6577e40a5949d2b8cec0536062588"
+    },
+    {
+      "file": "exp5_logistic_convergence.png",
+      "kind": "saved_png",
+      "source_cell": 63,
+      "source_output": 3,
+      "byte_identical_to_notebook": true,
+      "sha256": "1f67b49ee873eb74f7038f0c26a38bac9681d4d7a9eab27f13c03a03d67c17de"
+    },
+    {
+      "file": "exp5_logistic_quadratic_phase.png",
+      "kind": "saved_png",
+      "source_cell": 63,
+      "source_output": 4,
+      "byte_identical_to_notebook": true,
+      "sha256": "f404d47b29b8a7f379e3065b6519e843caee7ef4c6beb4e2493fdb70dd7b0c40"
+    },
+    {
+      "file": "exp5_logistic_costs.png",
+      "kind": "saved_png",
+      "source_cell": 63,
+      "source_output": 5,
+      "byte_identical_to_notebook": true,
+      "sha256": "cbe6df77c8ae0ba608a830a9e22689ca51becd686d9ca396531374444c04f980"
+    },
+    {
+      "file": "exp6_pseudohuber_regularization.png",
+      "kind": "saved_png",
+      "source_cell": 68,
+      "source_output": 0,
+      "byte_identical_to_notebook": true,
+      "sha256": "b2a009db00d953dac3a7509c577fe29ddc2aaf92ea644a43d4248318021c4a88"
+    },
+    {
+      "file": "exp6_logistic_regularization.png",
+      "kind": "saved_png",
+      "source_cell": 68,
+      "source_output": 1,
+      "byte_identical_to_notebook": true,
+      "sha256": "06268bfa38dc281e8baa795d753043aa7ad3f9550f1d9b517eed0e3818acd9c6"
+    },
+    {
+      "file": "exp7_pseudohuber_histograms.png",
+      "kind": "saved_png",
+      "source_cell": 78,
+      "source_output": 0,
+      "byte_identical_to_notebook": true,
+      "sha256": "d327f5bb779442e53cddc0f88757730be9dc50adf29ffca0166ecb6d9b5df34e"
+    },
+    {
+      "file": "exp7_pseudohuber_spectral_evolution.png",
+      "kind": "saved_png",
+      "source_cell": 78,
+      "source_output": 1,
+      "byte_identical_to_notebook": true,
+      "sha256": "d85ee56f7a9522328d1f6283d6655bf410be004affff2461849ed17894a5159c"
+    },
+    {
+      "file": "exp7_logistic_histograms.png",
+      "kind": "saved_png",
+      "source_cell": 78,
+      "source_output": 2,
+      "byte_identical_to_notebook": true,
+      "sha256": "167a0f0ce3b7fdaa0ea9316516cfb09ba44c5679bb8c5c590e1ff045468e90bc"
+    },
+    {
+      "file": "exp7_logistic_spectral_evolution.png",
+      "kind": "saved_png",
+      "source_cell": 78,
+      "source_output": 3,
+      "byte_identical_to_notebook": true,
+      "sha256": "316c08807216bf24db60a1efcce93df5f215ef68cc56fcfb37f6092f637ac5c5"
+    },
+    {
+      "file": "precision_convergence.png",
+      "kind": "saved_png",
+      "source_cell": 80,
+      "source_output": 1,
+      "byte_identical_to_notebook": true,
+      "sha256": "3591ffea0a5af7d0e43ad5d9972058278d577c20119a2ec405f399c48f1c2367"
+    },
+    {
+      "file": "precision_time_components.png",
+      "kind": "saved_png",
+      "source_cell": 80,
+      "source_output": 2,
+      "byte_identical_to_notebook": true,
+      "sha256": "bb0ed8f9cf8401e36e3ef1c2b9c72e971fe2350dd081c073e6cf3589b682a1af"
+    },
+    {
+      "file": "diagonal_preconditioning.png",
+      "kind": "saved_png",
+      "source_cell": 82,
+      "source_output": 0,
+      "byte_identical_to_notebook": true,
+      "sha256": "b9bbbe081199d23a2cc63b5a762fa62630530e5d59f196df511250851f0f3e00"
+    },
+    {
+      "file": "derivative_checks_displayed.csv",
+      "kind": "displayed_table",
+      "source_cell": 24,
+      "rows": 5,
+      "source_output": 1,
+      "truncated": false,
+      "total_display_rows": null,
+      "precision": "As rendered in notebook; rounded values are not raw measurements.",
+      "sha256": "016fc5e7f5f78ac9cd0765ad0ec52352dd0f9b83ca8deacc064dfc5883a13f67"
+    },
+    {
+      "file": "exp1_tolerance_comparison_displayed.csv",
+      "kind": "displayed_table",
+      "source_cell": 43,
+      "rows": 2,
+      "source_output": 3,
+      "truncated": false,
+      "total_display_rows": null,
+      "precision": "As rendered in notebook; rounded values are not raw measurements.",
+      "sha256": "8c0575efb6d131adb8f5f25137beb31429fff93f07ffdb64d5c489aac59b666e"
+    },
+    {
+      "file": "exp1_himmelblau_critical_points_displayed.csv",
+      "kind": "displayed_table",
+      "source_cell": 44,
+      "rows": 9,
+      "source_output": 0,
+      "truncated": false,
+      "total_display_rows": null,
+      "precision": "As rendered in notebook; rounded values are not raw measurements.",
+      "sha256": "40c40aabf6a95b375f3fe5b826e75ce821af5b50baf478bcf293849502a99a4d"
+    },
+    {
+      "file": "exp2_iterations_displayed.csv",
+      "kind": "displayed_table",
+      "source_cell": 47,
+      "rows": 10,
+      "source_output": 2,
+      "truncated": true,
+      "total_display_rows": 200,
+      "precision": "As rendered in notebook; rounded values are not raw measurements.",
+      "sha256": "0e7ea3c14134d662cd40b0924e23fda60a2af58dc312486546aed302cf0c06a6"
+    },
+    {
+      "file": "exp2_scaling_diagnostics_displayed.csv",
+      "kind": "displayed_table",
+      "source_cell": 49,
+      "rows": 20,
+      "source_output": 0,
+      "truncated": false,
+      "total_display_rows": null,
+      "precision": "As rendered in notebook; rounded values are not raw measurements.",
+      "sha256": "1add31217ed34658e5ace134dddef94784ddc07a1b239cb6be70669f407b8854"
+    },
+    {
+      "file": "exp3_real_data_displayed.csv",
+      "kind": "displayed_table",
+      "source_cell": 52,
+      "rows": 4,
+      "source_output": 2,
+      "truncated": false,
+      "total_display_rows": null,
+      "precision": "As rendered in notebook; rounded values are not raw measurements.",
+      "sha256": "d8f770933e01218eb81f1c102672ee92e9b986de4f27f540382dfcdc8a4b27af"
+    },
+    {
+      "file": "precision_profile_displayed.csv",
+      "kind": "displayed_table",
+      "source_cell": 80,
+      "rows": 8,
+      "source_output": 0,
+      "truncated": false,
+      "total_display_rows": null,
+      "precision": "As rendered in notebook; rounded values are not raw measurements.",
+      "sha256": "46c16e164b631987608e57bc721e18ab61b898d74f3d37c6300b47e253373391"
+    },
+    {
+      "file": "diagonal_preconditioning_displayed.csv",
+      "kind": "displayed_table",
+      "source_cell": 82,
+      "rows": 12,
+      "source_output": 2,
+      "truncated": false,
+      "total_display_rows": null,
+      "precision": "As rendered in notebook; rounded values are not raw measurements.",
+      "sha256": "96fc57dc5600a721f5c33727dd270b4c72c660c10df3ea88e7cae0ef77ecc274"
+    },
+    {
+      "file": "exp1_quadratic_runs_from_output.csv",
+      "kind": "printed_run_summary",
+      "source_cell": 35,
+      "rows": 24,
+      "precision": "Printed function/gradient values are rounded.",
+      "sha256": "f343251c2a3efd649e8628e22d02c04a3565ab5029ea7fb7c3a6823f6c593fc8"
+    },
+    {
+      "file": "exp1_rosenbrock_runs_from_output.csv",
+      "kind": "printed_run_summary",
+      "source_cell": 40,
+      "rows": 8,
+      "precision": "Printed endpoint metrics are rounded.",
+      "sha256": "0d0abb0d063e4a575dcc03ebf6382431cf7b59d3e45ff84de6f66c392347e407"
+    },
+    {
+      "file": "exp1_rosenbrock_basin_summary_from_output.csv",
+      "kind": "printed_run_summary",
+      "source_cell": 41,
+      "rows": 2,
+      "arrays_recovered": false,
+      "sha256": "7967be8b52cfe83c9ce38792cd9381d33f75226cafa755566ec98f2f1e05e480"
+    },
+    {
+      "file": "exp4_step_strategies_from_output.csv",
+      "kind": "printed_run_summary",
+      "source_cell": 57,
+      "rows": 108,
+      "precision": "Times rounded to four decimals; original residual columns unavailable.",
+      "sha256": "0d76fb6a6051d431d4330a2253d49aad15122d5e60c0301073319e516e3746c7"
+    },
+    {
+      "file": "exp5_newton_strategies_from_output.csv",
+      "kind": "printed_run_summary",
+      "source_cell": 62,
+      "rows": 72,
+      "precision": "Times rounded; full oracle counters and histories unavailable.",
+      "sha256": "aef344b228e2d3f60adb0cfee45442a2a11f3bd80c603f8baf10ec3e6b916a96"
+    },
+    {
+      "file": "exp6_regularization_from_output.csv",
+      "kind": "printed_run_summary",
+      "source_cell": 67,
+      "rows": 28,
+      "precision": "Printed times and solution norms are rounded.",
+      "sha256": "7d4018cd2338fd195d67543d93d881bb0321cdb2c967c6df85ff2fa09edbcfbc"
+    },
+    {
+      "file": "exp7_spectrum_summary_from_output.csv",
+      "kind": "printed_run_summary",
+      "source_cell": 77,
+      "rows": 8,
+      "full_eigenvalue_arrays_recovered": false,
+      "precision": "Condition numbers printed to four significant digits.",
+      "sha256": "a4f3026961f1f03cf9bd64169c137e50b4e372a0e47e110e6631b2988ce6de5e"
+    },
+    {
+      "file": "run_status_summary.csv",
+      "kind": "complete_printed_table",
+      "source_cell": 83,
+      "rows": 22,
+      "sha256": "dd92255da00aa23270c01e4031bab271ffedbbbdae25699ee1c53a3b5478aa5b"
+    },
+    {
+      "file": "exp3_hardware.json",
+      "kind": "complete_printed_metadata",
+      "source_cell": 32,
+      "sha256": "4173a64f8870dc81574237ae20bc06874aae4eb90569ae9ac2cea3a80386bbb4"
+    },
+    {
+      "file": "datasets_from_output.csv",
+      "kind": "printed_dataset_metadata",
+      "source_cell": 52,
+      "rows": 4,
+      "density": "Computed as printed nnz/(m*n).",
+      "sha256": "8afcf5bdabc4138816da9a61facbf2270f9530c4560596d439b067e2984d08c4"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+loss,method,dtype,final_dtype,status,iterations,minimum_grad_norm,oracle_seconds,line_search_seconds,linear_system_seconds
+pseudohuber,GD,float32,float32,line_search_stopped,31,0.000379,0.009508,0.020730,0.000000
+pseudohuber,Newton,float32,float32,gradient_stagnation,77,0.000000,0.143176,0.035509,0.007189
+pseudohuber,GD,float64,float64,line_search_stopped,103,0.000000,0.053041,0.106991,0.000000
+pseudohuber,Newton,float64,float64,gradient_stagnation,74,0.000000,0.263294,0.060609,0.008780
+logistic,GD,float32,float32,gradient_stagnation,100,0.000124,0.040719,0.091047,0.000000
+logistic,Newton,float32,float32,gradient_stagnation,65,0.000000,0.127321,0.037928,0.006261
+logistic,GD,float64,float64,gradient_stagnation,250,0.000000,0.135726,0.280440,0.000000
+logistic,Newton,float64,float64,gradient_stagnation,53,0.000000,0.184883,0.079449,0.006112

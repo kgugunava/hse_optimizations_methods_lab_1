@@ -1,0 +1,5 @@
+dataset,iterations__GD,iterations__Newton,seconds__GD,seconds__Newton,milliseconds_per_iteration__GD,milliseconds_per_iteration__Newton,status__GD,status__Newton
+mg_scale,41.0,4.0,0.050341,0.006295,1.227828,1.573696,success,success
+triazines_scale,224.0,3.0,0.205369,0.003589,0.916828,1.196451,success,success
+phishing,159.0,4.0,3.119677,0.147338,19.620611,36.834440,success,success
+real-sim,29.0,NaN,7.243443,NaN,249.773907,NaN,success,skipped_memory

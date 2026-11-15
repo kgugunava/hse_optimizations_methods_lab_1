@@ -1,0 +1,6 @@
+oracle,absolute_gradient,absolute_hessian,relative_gradient,relative_hessian
+pseudohuber / dense,2.571762e-08,0.000011,7.648279e-08,0.000019
+pseudohuber / CSR,4.711353e-08,0.000013,1.446611e-07,0.000023
+logistic / dense,1.666885e-08,0.000003,1.135146e-07,0.000010
+logistic / CSR,1.892864e-08,0.000003,1.135146e-07,0.000009
+Rosenbrock,9.851524e-06,0.028360,1.834821e-08,0.000023

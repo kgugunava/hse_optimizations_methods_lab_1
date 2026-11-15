@@ -1,0 +1,109 @@
+problem,start,strategy,status,iterations,func_calls,grad_calls,hess_calls,oracle_calls,seconds
+quadratic,zero,Constant 0.5/L,success,1595,1596,1596,0,3192,0.0394
+quadratic,zero,Constant 1/L,success,796,797,797,0,1594,0.0201
+quadratic,zero,Constant 1.8/L,success,441,442,442,0,884,0.0114
+quadratic,zero,Constant 3/L,computational_error,512,514,514,0,1028,0.0126
+quadratic,zero,Armijo c1=0.0001,success,366,1470,733,0,2203,0.0475
+quadratic,zero,Armijo c1=0.1,success,367,1474,735,0,2209,0.0238
+quadratic,zero,Armijo c1=0.4,success,363,1458,727,0,2185,0.0237
+quadratic,zero,Wolfe c2=0.1,success,294,2209,1471,0,3680,0.0491
+quadratic,zero,Wolfe c2=0.5,success,294,2209,1471,0,3680,0.0500
+quadratic,zero,Wolfe c2=0.9,success,294,2209,1471,0,3680,0.0464
+quadratic,zero,Brent,success,342,4068,343,0,4411,0.0608
+quadratic,zero,Golden,success,342,13338,343,0,13681,0.1193
+quadratic,ones,Constant 0.5/L,success,920,921,921,0,1842,0.0241
+quadratic,ones,Constant 1/L,success,459,460,460,0,920,0.0119
+quadratic,ones,Constant 1.8/L,success,254,255,255,0,510,0.0066
+quadratic,ones,Constant 3/L,computational_error,509,511,511,0,1022,0.0132
+quadratic,ones,Armijo c1=0.0001,success,224,902,449,0,1351,0.0145
+quadratic,ones,Armijo c1=0.1,success,217,874,435,0,1309,0.0142
+quadratic,ones,Armijo c1=0.4,success,213,858,427,0,1285,0.0138
+quadratic,ones,Wolfe c2=0.1,success,246,1984,1239,0,3223,0.0418
+quadratic,ones,Wolfe c2=0.5,success,136,1059,686,0,1745,0.0224
+quadratic,ones,Wolfe c2=0.9,success,210,1584,1051,0,2635,0.0336
+quadratic,ones,Brent,success,243,2268,244,0,2512,0.0346
+quadratic,ones,Golden,success,243,9478,244,0,9722,0.0899
+quadratic,random,Constant 0.5/L,success,761,762,762,0,1524,0.0215
+quadratic,random,Constant 1/L,success,380,381,381,0,762,0.0098
+quadratic,random,Constant 1.8/L,success,210,211,211,0,422,0.0053
+quadratic,random,Constant 3/L,computational_error,505,507,507,0,1014,0.0321
+quadratic,random,Armijo c1=0.0001,success,187,754,375,0,1129,0.0121
+quadratic,random,Armijo c1=0.1,success,187,754,375,0,1129,0.0140
+quadratic,random,Armijo c1=0.4,success,179,722,359,0,1081,0.0116
+quadratic,random,Wolfe c2=0.1,success,167,1279,843,0,2122,0.0268
+quadratic,random,Wolfe c2=0.5,success,152,1147,762,0,1909,0.0240
+quadratic,random,Wolfe c2=0.9,success,147,1120,736,0,1856,0.0283
+quadratic,random,Brent,success,207,1864,208,0,2072,0.0302
+quadratic,random,Golden,success,207,8076,208,0,8284,0.0750
+pseudohuber,zero,Constant 0.5/L,success,375,376,376,0,752,0.0308
+pseudohuber,zero,Constant 1/L,success,186,187,187,0,374,0.0127
+pseudohuber,zero,Constant 1.8/L,success,102,103,103,0,206,0.0071
+pseudohuber,zero,Constant 3/L,iterations_exceeded,5000,5001,5001,0,10002,0.4482
+pseudohuber,zero,Armijo c1=0.0001,success,83,336,167,0,503,0.0171
+pseudohuber,zero,Armijo c1=0.1,success,81,328,163,0,491,0.0167
+pseudohuber,zero,Armijo c1=0.4,success,79,320,159,0,479,0.0171
+pseudohuber,zero,Wolfe c2=0.1,success,89,536,460,0,996,0.0346
+pseudohuber,zero,Wolfe c2=0.5,success,87,521,443,0,964,0.0547
+pseudohuber,zero,Wolfe c2=0.9,success,85,507,426,0,933,0.0455
+pseudohuber,zero,Brent,success,93,1242,94,0,1336,0.0964
+pseudohuber,zero,Golden,success,93,3346,94,0,3440,0.2075
+pseudohuber,ones,Constant 0.5/L,success,625,626,626,0,1252,0.0420
+pseudohuber,ones,Constant 1/L,success,311,312,312,0,624,0.0406
+pseudohuber,ones,Constant 1.8/L,success,172,173,173,0,346,0.0118
+pseudohuber,ones,Constant 3/L,iterations_exceeded,5000,5001,5001,0,10002,0.5755
+pseudohuber,ones,Armijo c1=0.0001,success,109,440,219,0,659,0.0226
+pseudohuber,ones,Armijo c1=0.1,success,107,432,215,0,647,0.0220
+pseudohuber,ones,Armijo c1=0.4,success,101,408,203,0,611,0.0209
+pseudohuber,ones,Wolfe c2=0.1,success,97,578,502,0,1080,0.0397
+pseudohuber,ones,Wolfe c2=0.5,success,93,509,472,0,981,0.0335
+pseudohuber,ones,Wolfe c2=0.9,success,107,628,537,0,1165,0.0431
+pseudohuber,ones,Brent,success,121,1503,122,0,1625,0.1315
+pseudohuber,ones,Golden,success,121,4327,122,0,4449,0.1636
+pseudohuber,random,Constant 0.5/L,success,1069,1070,1070,0,2140,0.1521
+pseudohuber,random,Constant 1/L,success,533,534,534,0,1068,0.0605
+pseudohuber,random,Constant 1.8/L,success,295,296,296,0,592,0.0203
+pseudohuber,random,Constant 3/L,iterations_exceeded,5000,5001,5001,0,10002,0.4304
+pseudohuber,random,Armijo c1=0.0001,success,126,508,253,0,761,0.0263
+pseudohuber,random,Armijo c1=0.1,success,126,508,253,0,761,0.0259
+pseudohuber,random,Armijo c1=0.4,success,123,496,247,0,743,0.0326
+pseudohuber,random,Wolfe c2=0.1,success,83,455,429,0,884,0.0304
+pseudohuber,random,Wolfe c2=0.5,success,117,679,592,0,1271,0.0476
+pseudohuber,random,Wolfe c2=0.9,success,125,714,627,0,1341,0.0647
+pseudohuber,random,Brent,success,135,1757,136,0,1893,0.1324
+pseudohuber,random,Golden,success,135,4839,136,0,4975,0.1675
+logistic,zero,Constant 0.5/L,success,4573,4574,4574,0,9148,0.5195
+logistic,zero,Constant 1/L,success,2285,2286,2286,0,4572,0.1253
+logistic,zero,Constant 1.8/L,success,1267,1268,1268,0,2536,0.0901
+logistic,zero,Constant 3/L,success,758,759,759,0,1518,0.0420
+logistic,zero,Armijo c1=0.0001,success,239,956,479,0,1435,0.0423
+logistic,zero,Armijo c1=0.1,success,232,928,465,0,1393,0.0353
+logistic,zero,Armijo c1=0.4,success,228,912,457,0,1369,0.0376
+logistic,zero,Wolfe c2=0.1,success,221,1169,1303,0,2472,0.0745
+logistic,zero,Wolfe c2=0.5,success,192,876,1068,0,1944,0.1026
+logistic,zero,Wolfe c2=0.9,success,200,909,1109,0,2018,0.0475
+logistic,zero,Brent,success,272,2789,273,0,3062,0.1972
+logistic,zero,Golden,success,272,8242,273,0,8515,0.4330
+logistic,ones,Constant 0.5/L,success,4068,4069,4069,0,8138,0.5111
+logistic,ones,Constant 1/L,success,2030,2031,2031,0,4062,0.2518
+logistic,ones,Constant 1.8/L,success,1123,1124,1124,0,2248,0.1430
+logistic,ones,Constant 3/L,success,670,671,671,0,1342,0.0843
+logistic,ones,Armijo c1=0.0001,success,193,772,387,0,1159,0.0639
+logistic,ones,Armijo c1=0.1,success,186,744,373,0,1117,0.0627
+logistic,ones,Armijo c1=0.4,success,191,764,383,0,1147,0.0762
+logistic,ones,Wolfe c2=0.1,success,171,913,1033,0,1946,0.1023
+logistic,ones,Wolfe c2=0.5,success,165,764,929,0,1693,0.0823
+logistic,ones,Wolfe c2=0.9,success,170,785,955,0,1740,0.0970
+logistic,ones,Brent,success,201,1955,202,0,2157,0.1394
+logistic,ones,Golden,success,201,6061,202,0,6263,0.3514
+logistic,random,Constant 0.5/L,iterations_exceeded,5000,5001,5001,0,10002,0.6072
+logistic,random,Constant 1/L,success,3317,3318,3318,0,6636,0.4246
+logistic,random,Constant 1.8/L,success,1845,1846,1846,0,3692,0.2227
+logistic,random,Constant 3/L,success,1108,1109,1109,0,2218,0.0577
+logistic,random,Armijo c1=0.0001,success,278,1112,557,0,1669,0.0724
+logistic,random,Armijo c1=0.1,success,267,1068,535,0,1603,0.0484
+logistic,random,Armijo c1=0.4,success,248,992,497,0,1489,0.0378
+logistic,random,Wolfe c2=0.1,success,246,1439,1596,0,3035,0.0686
+logistic,random,Wolfe c2=0.5,success,168,856,1024,0,1880,0.0530
+logistic,random,Wolfe c2=0.9,success,189,944,1133,0,2077,0.0459
+logistic,random,Brent,success,319,3270,320,0,3590,0.1664
+logistic,random,Golden,success,319,9485,320,0,9805,0.3815

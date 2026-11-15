@@ -1,0 +1,11 @@
+n,kappa,repeat,iterations__GD Constant 1/L,iterations__Newton,status__GD Constant 1/L,status__Newton
+10,1.0,0,1.0,1.0,success,success
+10,1.0,1,1.0,1.0,success,success
+10,1.0,2,1.0,NaN,success,NaN
+10,1.0,3,1.0,NaN,success,NaN
+10,1.0,4,1.0,NaN,success,NaN
+10000,1000.0,0,5214.0,NaN,success,NaN
+10000,1000.0,1,5136.0,NaN,success,NaN
+10000,1000.0,2,5536.0,NaN,success,NaN
+10000,1000.0,3,4512.0,NaN,success,NaN
+10000,1000.0,4,5567.0,NaN,success,NaN
